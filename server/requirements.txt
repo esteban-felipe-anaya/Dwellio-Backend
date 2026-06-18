@@ -8,10 +8,11 @@ SQLAlchemy[asyncio]>=2.0.35
 alembic>=1.13
 greenlet>=3.1
 aiosqlite>=0.20          # zero-install SQLite fallback
-# PostgreSQL driver — the documented production target.
-# If your Python has no prebuilt asyncpg wheel, install it separately
-# (`pip install asyncpg`) once PostgreSQL build deps are available.
-asyncpg>=0.30; python_version < "3.14"
+# PostgreSQL driver (documented production target). psycopg v3 ships binary
+# wheels for all supported Pythons (incl. 3.14) and works with SQLAlchemy's
+# async engine via `postgresql+psycopg://`. asyncpg is an alternative where a
+# wheel exists for your Python: `pip install asyncpg` + use postgresql+asyncpg.
+psycopg[binary]>=3.2
 
 # --- Validation / settings ---
 pydantic>=2.9

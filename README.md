@@ -73,17 +73,30 @@ python -m venv .venv
 
 ### PostgreSQL (production target)
 
-```sql
-CREATE ROLE dwellio WITH LOGIN PASSWORD 'dwellio';
-CREATE DATABASE dwellio OWNER dwellio;
+The database is **not** auto-created (only the SQLite fallback is). Create the role + database
+once, then point `DATABASE_URL` at it. The driver is **psycopg v3** (binary wheels on all
+Pythons, incl. 3.14) via the `postgresql+psycopg://` URL.
+
+```bash
+# 1. Create the role + database (as a Postgres superuser).
+#    On Windows the tools may not be on PATH — use the full install path, e.g.:
+#    "C:\Program Files\PostgreSQL\18\bin\psql.exe"
+psql -U postgres -c "CREATE ROLE dwellio LOGIN PASSWORD 'dwellio';"
+createdb -U postgres -O dwellio dwellio
 ```
 
 ```bash
-# server/.env
-DATABASE_URL=postgresql+asyncpg://dwellio:dwellio@localhost:5432/dwellio
+# 2. server/.env
+DATABASE_URL=postgresql+psycopg://dwellio:dwellio@localhost:5432/dwellio
 ```
 
-Then `make migrate && make seed`. (Install the driver if your Python had no wheel: `pip install asyncpg`.)
+```bash
+# 3. Apply the schema + seed.
+make migrate && make seed
+```
+
+> `psycopg[binary]` is in `requirements.txt`. To use asyncpg instead (where a wheel exists for
+> your Python): `pip install asyncpg` and use `postgresql+asyncpg://…`.
 
 ---
 
