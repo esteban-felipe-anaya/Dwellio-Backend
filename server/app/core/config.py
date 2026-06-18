@@ -9,7 +9,6 @@ from __future__ import annotations
 
 from functools import lru_cache
 
-from pydantic import field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -42,20 +41,17 @@ class Settings(BaseSettings):
     # --- Seed ---
     SEED_DATA_PATH: str = "app/seed/seed_data.json"
 
-    # --- CORS ---  comma-separated origins in env, list in code.
-    CORS_ORIGINS: list[str] = [
-        "http://localhost:3001",  # admin
-        "http://127.0.0.1:3001",
-        "http://localhost:3000",  # flutter web dev
-        "http://localhost:8080",
-    ]
+    # --- CORS --- comma-separated origins. Kept as a plain string so reading it
+    # from .env never triggers pydantic-settings' JSON decoding of list fields;
+    # `cors_origins` exposes the parsed list.
+    CORS_ORIGINS: str = (
+        "http://localhost:3001,http://127.0.0.1:3001,"
+        "http://localhost:3000,http://localhost:8080"
+    )
 
-    @field_validator("CORS_ORIGINS", mode="before")
-    @classmethod
-    def _split_origins(cls, v: object) -> object:
-        if isinstance(v, str) and not v.startswith("["):
-            return [o.strip() for o in v.split(",") if o.strip()]
-        return v
+    @property
+    def cors_origins(self) -> list[str]:
+        return [o.strip() for o in self.CORS_ORIGINS.split(",") if o.strip()]
 
     @property
     def sqlalchemy_url(self) -> str:
