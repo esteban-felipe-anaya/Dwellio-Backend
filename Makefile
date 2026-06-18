@@ -38,7 +38,7 @@ seed:
 	cd $(SERVER) && ../$(PY) -m app.seed.import_seed
 
 run:
-	cd $(SERVER) && ../$(PY) -m uvicorn app.main:app --reload --port 8000
+	cd $(SERVER) && ../$(PY) run.py
 
 test:
 	cd $(SERVER) && ../$(PY) -m pytest -q

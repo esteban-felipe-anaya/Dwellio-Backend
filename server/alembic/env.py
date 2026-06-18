@@ -1,4 +1,5 @@
 """Alembic environment configured for the async SQLAlchemy engine."""
+
 from __future__ import annotations
 
 import asyncio
@@ -11,7 +12,11 @@ from alembic import context
 
 from app.core.config import settings
 from app.core.db import Base
+from app.core.event_loop import use_selector_event_loop
 import app.models  # noqa: F401  (register all tables on Base.metadata)
+
+# psycopg async needs a SelectorEventLoop on Windows.
+use_selector_event_loop()
 
 config = context.config
 config.set_main_option("sqlalchemy.url", settings.sqlalchemy_url)

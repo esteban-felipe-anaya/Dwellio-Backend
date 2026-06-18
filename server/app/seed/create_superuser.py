@@ -40,6 +40,9 @@ def main() -> None:
     parser.add_argument("--password", default="password")
     parser.add_argument("--name", default="Dwellio Admin")
     args = parser.parse_args()
+    from app.core.event_loop import use_selector_event_loop
+
+    use_selector_event_loop()
     asyncio.run(run(args.email, args.password, args.name))
 
 

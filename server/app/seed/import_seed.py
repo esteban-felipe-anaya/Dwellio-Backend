@@ -230,6 +230,9 @@ def main() -> None:
     path = args.path
     if not os.path.isabs(path):
         path = os.path.join(os.getcwd(), path)
+    from app.core.event_loop import use_selector_event_loop
+
+    use_selector_event_loop()
     asyncio.run(run(path))
 
 

@@ -30,7 +30,7 @@ if /I "%TARGET%"=="setup" (
 
 if /I "%TARGET%"=="migrate"   ( pushd server & "..\%PY%" -m alembic upgrade head & popd & goto :eof )
 if /I "%TARGET%"=="seed"      ( pushd server & "..\%PY%" -m app.seed.import_seed & popd & goto :eof )
-if /I "%TARGET%"=="run"       ( pushd server & "..\%PY%" -m uvicorn app.main:app --reload --port 8000 & popd & goto :eof )
+if /I "%TARGET%"=="run"       ( pushd server & "..\%PY%" run.py & popd & goto :eof )
 if /I "%TARGET%"=="test"      ( pushd server & "..\%PY%" -m pytest -q & popd & goto :eof )
 if /I "%TARGET%"=="lint"      ( pushd server & "..\%PY%" -m ruff check app & "..\%PY%" -m black --check app & popd & goto :eof )
 if /I "%TARGET%"=="fmt"       ( pushd server & "..\%PY%" -m ruff check --fix app & "..\%PY%" -m black app & popd & goto :eof )
