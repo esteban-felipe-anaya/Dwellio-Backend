@@ -1,0 +1,1664 @@
+{
+  "users": [
+    {
+      "id": "usr_001",
+      "name": "Alex Morgan",
+      "email": "demo@dwellio.app",
+      "phone": "+1 (555) 012-3456",
+      "photo": "https://i.pravatar.cc/300?img=5",
+      "password": "password",
+      "isStaff": false,
+      "isSuperuser": false
+    },
+    {
+      "id": "usr_admin",
+      "name": "Dwellio Admin",
+      "email": "admin@dwellio.app",
+      "phone": "+1 (555) 000-0000",
+      "photo": "https://randomuser.me/api/portraits/men/32.jpg",
+      "password": "password",
+      "isStaff": true,
+      "isSuperuser": true
+    }
+  ],
+  "agents": [
+    {
+      "id": "agt_01",
+      "name": "Sofia Okafor",
+      "photo": "https://randomuser.me/api/portraits/women/0.jpg",
+      "agency": "Cornerstone Realty",
+      "phone": "+1 (555) 120-7844",
+      "rating": 3.9,
+      "reviewCount": 154
+    },
+    {
+      "id": "agt_02",
+      "name": "Noah Haddad",
+      "photo": "https://randomuser.me/api/portraits/men/7.jpg",
+      "agency": "Cornerstone Realty",
+      "phone": "+1 (555) 425-5680",
+      "rating": 4.4,
+      "reviewCount": 190
+    },
+    {
+      "id": "agt_03",
+      "name": "James Sterling",
+      "photo": "https://randomuser.me/api/portraits/women/14.jpg",
+      "agency": "Metro Living Group",
+      "phone": "+1 (555) 349-2785",
+      "rating": 3.8,
+      "reviewCount": 131
+    },
+    {
+      "id": "agt_04",
+      "name": "Sofia Okafor",
+      "photo": "https://randomuser.me/api/portraits/men/21.jpg",
+      "agency": "Habita Estates",
+      "phone": "+1 (555) 515-3022",
+      "rating": 4.5,
+      "reviewCount": 85
+    },
+    {
+      "id": "agt_05",
+      "name": "Lucas Okafor",
+      "photo": "https://randomuser.me/api/portraits/women/28.jpg",
+      "agency": "Anchor & Key",
+      "phone": "+1 (555) 586-1748",
+      "rating": 4.2,
+      "reviewCount": 17
+    },
+    {
+      "id": "agt_06",
+      "name": "Lucas Rossi",
+      "photo": "https://randomuser.me/api/portraits/men/35.jpg",
+      "agency": "Cornerstone Realty",
+      "phone": "+1 (555) 201-4596",
+      "rating": 4,
+      "reviewCount": 141
+    }
+  ],
+  "propertyTypes": [
+    {
+      "id": "apartment",
+      "name": "Apartment",
+      "icon": "apartment"
+    },
+    {
+      "id": "house",
+      "name": "House",
+      "icon": "house"
+    },
+    {
+      "id": "condo",
+      "name": "Condo",
+      "icon": "domain"
+    },
+    {
+      "id": "townhouse",
+      "name": "Townhouse",
+      "icon": "holiday_village"
+    },
+    {
+      "id": "studio",
+      "name": "Studio",
+      "icon": "single_bed"
+    },
+    {
+      "id": "villa",
+      "name": "Villa",
+      "icon": "villa"
+    },
+    {
+      "id": "land",
+      "name": "Land",
+      "icon": "landscape"
+    }
+  ],
+  "amenities": [
+    {
+      "id": "gym",
+      "name": "Gym",
+      "icon": "fitness_center"
+    },
+    {
+      "id": "pool",
+      "name": "Pool",
+      "icon": "pool"
+    },
+    {
+      "id": "pet_friendly",
+      "name": "Pet Friendly",
+      "icon": "pets"
+    },
+    {
+      "id": "elevator",
+      "name": "Elevator",
+      "icon": "elevator"
+    },
+    {
+      "id": "parking",
+      "name": "Parking",
+      "icon": "local_parking"
+    },
+    {
+      "id": "balcony",
+      "name": "Balcony",
+      "icon": "balcony"
+    },
+    {
+      "id": "garden",
+      "name": "Garden",
+      "icon": "yard"
+    },
+    {
+      "id": "air_conditioning",
+      "name": "Air Conditioning",
+      "icon": "ac_unit"
+    },
+    {
+      "id": "security",
+      "name": "24/7 Security",
+      "icon": "security"
+    },
+    {
+      "id": "furnished",
+      "name": "Furnished",
+      "icon": "chair"
+    },
+    {
+      "id": "wifi",
+      "name": "High-Speed WiFi",
+      "icon": "wifi"
+    },
+    {
+      "id": "laundry",
+      "name": "In-unit Laundry",
+      "icon": "local_laundry_service"
+    }
+  ],
+  "listings": [
+    {
+      "id": "lst_1000",
+      "title": "Sunlit Studio with Hardwood Floors",
+      "dealType": "buy",
+      "price": 1701540,
+      "currency": "USD",
+      "propertyType": "studio",
+      "beds": 0,
+      "baths": 1,
+      "areaSqm": 114,
+      "parking": 2,
+      "address": "Calle Roma 391, CDMX",
+      "city": "CDMX",
+      "lat": 19.413716,
+      "lng": -99.136765,
+      "amenities": [
+        "furnished",
+        "parking",
+        "balcony",
+        "pool",
+        "gym",
+        "pet_friendly"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_02",
+      "description": "Thoughtfully designed space combining comfort and contemporary finishes throughout.",
+      "featured": false,
+      "listedAt": "2026-03-04T09:00:00Z"
+    },
+    {
+      "id": "lst_1001",
+      "title": "Cozy 2-Bed Condo with Rooftop Access",
+      "dealType": "rent",
+      "price": 5520,
+      "currency": "USD",
+      "propertyType": "condo",
+      "beds": 2,
+      "baths": 2,
+      "areaSqm": 318,
+      "parking": 2,
+      "address": "Harbor View 198, CDMX",
+      "city": "CDMX",
+      "lat": 19.403932,
+      "lng": -99.162904,
+      "amenities": [
+        "garden",
+        "balcony",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_04",
+      "description": "Freshly renovated home in a quiet, walkable neighborhood close to parks and caf\u00e9s.",
+      "featured": true,
+      "listedAt": "2026-06-11T09:00:00Z"
+    },
+    {
+      "id": "lst_1002",
+      "title": "Charming 4-Bed House with Open-Plan Kitchen",
+      "dealType": "buy",
+      "price": 209234,
+      "currency": "USD",
+      "propertyType": "house",
+      "beds": 4,
+      "baths": 2,
+      "areaSqm": 124,
+      "parking": 0,
+      "address": "Bloom Avenue 25, Austin",
+      "city": "Austin",
+      "lat": 30.321009,
+      "lng": -97.709915,
+      "amenities": [
+        "wifi",
+        "parking",
+        "balcony",
+        "laundry"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_05",
+      "description": "Move-in ready with updated appliances, central air, and a welcoming community.",
+      "featured": false,
+      "listedAt": "2026-06-27T09:00:00Z"
+    },
+    {
+      "id": "lst_1003",
+      "title": "Sunlit 2-Bed Apartment with Hardwood Floors",
+      "dealType": "rent",
+      "price": 3768,
+      "currency": "USD",
+      "propertyType": "apartment",
+      "beds": 2,
+      "baths": 1,
+      "areaSqm": 279,
+      "parking": 3,
+      "address": "Oak Ridge Blvd 269, Lisbon",
+      "city": "Lisbon",
+      "lat": 38.752102,
+      "lng": -9.186681,
+      "amenities": [
+        "security",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_04",
+      "description": "Thoughtfully designed space combining comfort and contemporary finishes throughout.",
+      "featured": false,
+      "listedAt": "2026-05-22T09:00:00Z"
+    },
+    {
+      "id": "lst_1004",
+      "title": "Elegant Land with Open-Plan Kitchen",
+      "dealType": "buy",
+      "price": 286863,
+      "currency": "USD",
+      "propertyType": "land",
+      "beds": 0,
+      "baths": 0,
+      "areaSqm": 741,
+      "parking": 1,
+      "address": "Calle Roma 350, CDMX",
+      "city": "CDMX",
+      "lat": 19.449006,
+      "lng": -99.110808,
+      "amenities": [
+        "pet_friendly",
+        "pool",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_06",
+      "description": "Move-in ready with updated appliances, central air, and a welcoming community.",
+      "featured": false,
+      "listedAt": "2026-04-10T09:00:00Z"
+    },
+    {
+      "id": "lst_1005",
+      "title": "Sunlit 2-Bed Apartment with Open-Plan Kitchen",
+      "dealType": "rent",
+      "price": 2688,
+      "currency": "USD",
+      "propertyType": "apartment",
+      "beds": 2,
+      "baths": 1,
+      "areaSqm": 194,
+      "parking": 2,
+      "address": "Harbor View 215, CDMX",
+      "city": "CDMX",
+      "lat": 19.458183,
+      "lng": -99.087713,
+      "amenities": [
+        "security",
+        "laundry",
+        "balcony",
+        "pet_friendly",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_04",
+      "description": "Freshly renovated home in a quiet, walkable neighborhood close to parks and caf\u00e9s.",
+      "featured": false,
+      "listedAt": "2026-05-18T09:00:00Z"
+    },
+    {
+      "id": "lst_1006",
+      "title": "Modern 5-Bed House with Floor-to-Ceiling Windows",
+      "dealType": "buy",
+      "price": 959494,
+      "currency": "USD",
+      "propertyType": "house",
+      "beds": 5,
+      "baths": 1,
+      "areaSqm": 247,
+      "parking": 3,
+      "address": "Rua Augusta 399, Austin",
+      "city": "Austin",
+      "lat": 30.300765,
+      "lng": -97.734936,
+      "amenities": [
+        "furnished",
+        "elevator",
+        "parking",
+        "gym",
+        "pool"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_02",
+      "description": "Freshly renovated home in a quiet, walkable neighborhood close to parks and caf\u00e9s.",
+      "featured": false,
+      "listedAt": "2026-02-05T09:00:00Z"
+    },
+    {
+      "id": "lst_1007",
+      "title": "Cozy 5-Bed Villa with Private Balcony",
+      "dealType": "rent",
+      "price": 3204,
+      "currency": "USD",
+      "propertyType": "villa",
+      "beds": 5,
+      "baths": 2,
+      "areaSqm": 42,
+      "parking": 3,
+      "address": "Oak Ridge Blvd 73, Austin",
+      "city": "Austin",
+      "lat": 30.272487,
+      "lng": -97.736431,
+      "amenities": [
+        "furnished",
+        "elevator",
+        "pet_friendly",
+        "gym",
+        "parking",
+        "pool"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_02",
+      "description": "Bright corner unit with floor-to-ceiling windows and an open layout perfect for entertaining.",
+      "featured": false,
+      "listedAt": "2026-06-01T09:00:00Z"
+    },
+    {
+      "id": "lst_1008",
+      "title": "Modern 1-Bed House with Floor-to-Ceiling Windows",
+      "dealType": "buy",
+      "price": 260066,
+      "currency": "USD",
+      "propertyType": "house",
+      "beds": 1,
+      "baths": 1,
+      "areaSqm": 50,
+      "parking": 2,
+      "address": "Av. Reforma 162, CDMX",
+      "city": "CDMX",
+      "lat": 19.473616,
+      "lng": -99.135931,
+      "amenities": [
+        "pet_friendly",
+        "pool",
+        "wifi",
+        "furnished",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_01",
+      "description": "A rare find with generous natural light, smart storage, and a flexible floor plan.",
+      "featured": true,
+      "listedAt": "2026-01-03T09:00:00Z"
+    },
+    {
+      "id": "lst_1009",
+      "title": "Cozy 3-Bed Villa with City Views",
+      "dealType": "buy",
+      "price": 816724,
+      "currency": "USD",
+      "propertyType": "villa",
+      "beds": 3,
+      "baths": 3,
+      "areaSqm": 239,
+      "parking": 0,
+      "address": "Rua Augusta 316, Lisbon",
+      "city": "Lisbon",
+      "lat": 38.74804,
+      "lng": -9.157514,
+      "amenities": [
+        "garden",
+        "elevator",
+        "air_conditioning",
+        "balcony"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_01",
+      "description": "A rare find with generous natural light, smart storage, and a flexible floor plan.",
+      "featured": false,
+      "listedAt": "2026-03-19T09:00:00Z"
+    },
+    {
+      "id": "lst_1010",
+      "title": "Modern Land with Rooftop Access",
+      "dealType": "buy",
+      "price": 1306979,
+      "currency": "USD",
+      "propertyType": "land",
+      "beds": 0,
+      "baths": 0,
+      "areaSqm": 1132,
+      "parking": 0,
+      "address": "Sunset Terrace 7, Austin",
+      "city": "Austin",
+      "lat": 30.317943,
+      "lng": -97.740699,
+      "amenities": [
+        "furnished",
+        "balcony",
+        "garden",
+        "wifi",
+        "laundry"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_04",
+      "description": "Bright corner unit with floor-to-ceiling windows and an open layout perfect for entertaining.",
+      "featured": true,
+      "listedAt": "2026-06-14T09:00:00Z"
+    },
+    {
+      "id": "lst_1011",
+      "title": "Modern 4-Bed Villa with Rooftop Access",
+      "dealType": "rent",
+      "price": 1048,
+      "currency": "USD",
+      "propertyType": "villa",
+      "beds": 4,
+      "baths": 4,
+      "areaSqm": 76,
+      "parking": 3,
+      "address": "Sunset Terrace 72, Austin",
+      "city": "Austin",
+      "lat": 30.30498,
+      "lng": -97.706068,
+      "amenities": [
+        "elevator",
+        "wifi",
+        "balcony",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_02",
+      "description": "Freshly renovated home in a quiet, walkable neighborhood close to parks and caf\u00e9s.",
+      "featured": false,
+      "listedAt": "2026-01-26T09:00:00Z"
+    },
+    {
+      "id": "lst_1012",
+      "title": "Bright Land with Open-Plan Kitchen",
+      "dealType": "rent",
+      "price": 3423,
+      "currency": "USD",
+      "propertyType": "land",
+      "beds": 0,
+      "baths": 0,
+      "areaSqm": 270,
+      "parking": 0,
+      "address": "Sunset Terrace 203, CDMX",
+      "city": "CDMX",
+      "lat": 19.415638,
+      "lng": -99.0822,
+      "amenities": [
+        "balcony",
+        "pet_friendly",
+        "gym",
+        "garden"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_06",
+      "description": "Bright corner unit with floor-to-ceiling windows and an open layout perfect for entertaining.",
+      "featured": true,
+      "listedAt": "2026-02-27T09:00:00Z"
+    },
+    {
+      "id": "lst_1013",
+      "title": "Sunlit 4-Bed Condo with Rooftop Access",
+      "dealType": "rent",
+      "price": 3097,
+      "currency": "USD",
+      "propertyType": "condo",
+      "beds": 4,
+      "baths": 4,
+      "areaSqm": 259,
+      "parking": 3,
+      "address": "Sunset Terrace 280, CDMX",
+      "city": "CDMX",
+      "lat": 19.461122,
+      "lng": -99.148136,
+      "amenities": [
+        "furnished",
+        "balcony",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_03",
+      "description": "Move-in ready with updated appliances, central air, and a welcoming community.",
+      "featured": false,
+      "listedAt": "2026-04-17T09:00:00Z"
+    },
+    {
+      "id": "lst_1014",
+      "title": "Stylish 3-Bed House with Floor-to-Ceiling Windows",
+      "dealType": "buy",
+      "price": 720354,
+      "currency": "USD",
+      "propertyType": "house",
+      "beds": 3,
+      "baths": 2,
+      "areaSqm": 190,
+      "parking": 1,
+      "address": "Sunset Terrace 412, Lisbon",
+      "city": "Lisbon",
+      "lat": 38.681026,
+      "lng": -9.130699,
+      "amenities": [
+        "garden",
+        "pool",
+        "air_conditioning",
+        "wifi",
+        "furnished",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_02",
+      "description": "A rare find with generous natural light, smart storage, and a flexible floor plan.",
+      "featured": true,
+      "listedAt": "2026-05-24T09:00:00Z"
+    },
+    {
+      "id": "lst_1015",
+      "title": "Modern 5-Bed Apartment with Floor-to-Ceiling Windows",
+      "dealType": "rent",
+      "price": 1343,
+      "currency": "USD",
+      "propertyType": "apartment",
+      "beds": 5,
+      "baths": 5,
+      "areaSqm": 120,
+      "parking": 3,
+      "address": "Bloom Avenue 326, Lisbon",
+      "city": "Lisbon",
+      "lat": 38.696453,
+      "lng": -9.197328,
+      "amenities": [
+        "parking",
+        "wifi",
+        "security",
+        "balcony",
+        "gym",
+        "pet_friendly"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_01",
+      "description": "Thoughtfully designed space combining comfort and contemporary finishes throughout.",
+      "featured": false,
+      "listedAt": "2026-02-15T09:00:00Z"
+    },
+    {
+      "id": "lst_1016",
+      "title": "Modern Land with Private Balcony",
+      "dealType": "rent",
+      "price": 2772,
+      "currency": "USD",
+      "propertyType": "land",
+      "beds": 0,
+      "baths": 0,
+      "areaSqm": 593,
+      "parking": 1,
+      "address": "Calle Roma 212, Lisbon",
+      "city": "Lisbon",
+      "lat": 38.695698,
+      "lng": -9.105473,
+      "amenities": [
+        "wifi",
+        "air_conditioning",
+        "laundry",
+        "pool",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_01",
+      "description": "Freshly renovated home in a quiet, walkable neighborhood close to parks and caf\u00e9s.",
+      "featured": false,
+      "listedAt": "2026-01-03T09:00:00Z"
+    },
+    {
+      "id": "lst_1017",
+      "title": "Modern Land with Private Balcony",
+      "dealType": "buy",
+      "price": 224016,
+      "currency": "USD",
+      "propertyType": "land",
+      "beds": 0,
+      "baths": 0,
+      "areaSqm": 692,
+      "parking": 1,
+      "address": "Sunset Terrace 104, CDMX",
+      "city": "CDMX",
+      "lat": 19.433583,
+      "lng": -99.132247,
+      "amenities": [
+        "balcony",
+        "pet_friendly",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_01",
+      "description": "Freshly renovated home in a quiet, walkable neighborhood close to parks and caf\u00e9s.",
+      "featured": false,
+      "listedAt": "2026-06-01T09:00:00Z"
+    },
+    {
+      "id": "lst_1018",
+      "title": "Charming 3-Bed House with Walk-in Closet",
+      "dealType": "buy",
+      "price": 262769,
+      "currency": "USD",
+      "propertyType": "house",
+      "beds": 3,
+      "baths": 1,
+      "areaSqm": 286,
+      "parking": 1,
+      "address": "Maple Street 276, Austin",
+      "city": "Austin",
+      "lat": 30.247599,
+      "lng": -97.717409,
+      "amenities": [
+        "security",
+        "furnished",
+        "pool",
+        "wifi",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_02",
+      "description": "Move-in ready with updated appliances, central air, and a welcoming community.",
+      "featured": false,
+      "listedAt": "2026-03-07T09:00:00Z"
+    },
+    {
+      "id": "lst_1019",
+      "title": "Cozy 5-Bed Condo with City Views",
+      "dealType": "rent",
+      "price": 2946,
+      "currency": "USD",
+      "propertyType": "condo",
+      "beds": 5,
+      "baths": 3,
+      "areaSqm": 195,
+      "parking": 0,
+      "address": "Bloom Avenue 300, CDMX",
+      "city": "CDMX",
+      "lat": 19.482578,
+      "lng": -99.135417,
+      "amenities": [
+        "elevator",
+        "laundry",
+        "garden",
+        "pet_friendly",
+        "air_conditioning",
+        "wifi"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_03",
+      "description": "A rare find with generous natural light, smart storage, and a flexible floor plan.",
+      "featured": false,
+      "listedAt": "2026-03-10T09:00:00Z"
+    },
+    {
+      "id": "lst_1020",
+      "title": "Spacious 5-Bed Apartment with Floor-to-Ceiling Windows",
+      "dealType": "rent",
+      "price": 4500,
+      "currency": "USD",
+      "propertyType": "apartment",
+      "beds": 5,
+      "baths": 4,
+      "areaSqm": 281,
+      "parking": 0,
+      "address": "Bloom Avenue 23, CDMX",
+      "city": "CDMX",
+      "lat": 19.436689,
+      "lng": -99.12813,
+      "amenities": [
+        "pool",
+        "furnished",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_03",
+      "description": "Freshly renovated home in a quiet, walkable neighborhood close to parks and caf\u00e9s.",
+      "featured": false,
+      "listedAt": "2026-03-23T09:00:00Z"
+    },
+    {
+      "id": "lst_1021",
+      "title": "Spacious 4-Bed House with Private Balcony",
+      "dealType": "buy",
+      "price": 1178632,
+      "currency": "USD",
+      "propertyType": "house",
+      "beds": 4,
+      "baths": 4,
+      "areaSqm": 180,
+      "parking": 0,
+      "address": "Bloom Avenue 433, Lisbon",
+      "city": "Lisbon",
+      "lat": 38.679367,
+      "lng": -9.128149,
+      "amenities": [
+        "laundry",
+        "elevator",
+        "garden"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_04",
+      "description": "A rare find with generous natural light, smart storage, and a flexible floor plan.",
+      "featured": false,
+      "listedAt": "2026-03-13T09:00:00Z"
+    },
+    {
+      "id": "lst_1022",
+      "title": "Stylish Studio with Garden Patio",
+      "dealType": "rent",
+      "price": 5656,
+      "currency": "USD",
+      "propertyType": "studio",
+      "beds": 0,
+      "baths": 1,
+      "areaSqm": 84,
+      "parking": 1,
+      "address": "Sunset Terrace 145, CDMX",
+      "city": "CDMX",
+      "lat": 19.381023,
+      "lng": -99.097658,
+      "amenities": [
+        "garden",
+        "balcony",
+        "laundry",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_03",
+      "description": "Freshly renovated home in a quiet, walkable neighborhood close to parks and caf\u00e9s.",
+      "featured": false,
+      "listedAt": "2026-04-05T09:00:00Z"
+    },
+    {
+      "id": "lst_1023",
+      "title": "Elegant Land with Garden Patio",
+      "dealType": "buy",
+      "price": 1706624,
+      "currency": "USD",
+      "propertyType": "land",
+      "beds": 0,
+      "baths": 0,
+      "areaSqm": 261,
+      "parking": 1,
+      "address": "Harbor View 245, CDMX",
+      "city": "CDMX",
+      "lat": 19.481405,
+      "lng": -99.118208,
+      "amenities": [
+        "furnished",
+        "laundry",
+        "pool",
+        "wifi",
+        "security",
+        "pet_friendly",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_05",
+      "description": "Bright corner unit with floor-to-ceiling windows and an open layout perfect for entertaining.",
+      "featured": false,
+      "listedAt": "2026-03-21T09:00:00Z"
+    },
+    {
+      "id": "lst_1024",
+      "title": "Stylish Land with Rooftop Access",
+      "dealType": "buy",
+      "price": 711251,
+      "currency": "USD",
+      "propertyType": "land",
+      "beds": 0,
+      "baths": 0,
+      "areaSqm": 803,
+      "parking": 2,
+      "address": "Maple Street 79, CDMX",
+      "city": "CDMX",
+      "lat": 19.459168,
+      "lng": -99.115873,
+      "amenities": [
+        "pet_friendly",
+        "air_conditioning",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_05",
+      "description": "Freshly renovated home in a quiet, walkable neighborhood close to parks and caf\u00e9s.",
+      "featured": false,
+      "listedAt": "2026-03-25T09:00:00Z"
+    },
+    {
+      "id": "lst_1025",
+      "title": "Cozy 3-Bed House with Rooftop Access",
+      "dealType": "rent",
+      "price": 5522,
+      "currency": "USD",
+      "propertyType": "house",
+      "beds": 3,
+      "baths": 3,
+      "areaSqm": 152,
+      "parking": 0,
+      "address": "Rua Augusta 225, Austin",
+      "city": "Austin",
+      "lat": 30.284117,
+      "lng": -97.717963,
+      "amenities": [
+        "pool",
+        "garden"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_04",
+      "description": "A rare find with generous natural light, smart storage, and a flexible floor plan.",
+      "featured": true,
+      "listedAt": "2026-03-20T09:00:00Z"
+    },
+    {
+      "id": "lst_1026",
+      "title": "Cozy 2-Bed Apartment with Rooftop Access",
+      "dealType": "rent",
+      "price": 2952,
+      "currency": "USD",
+      "propertyType": "apartment",
+      "beds": 2,
+      "baths": 2,
+      "areaSqm": 154,
+      "parking": 0,
+      "address": "Bloom Avenue 299, Austin",
+      "city": "Austin",
+      "lat": 30.276433,
+      "lng": -97.763774,
+      "amenities": [
+        "laundry",
+        "security",
+        "pool",
+        "gym",
+        "parking",
+        "wifi"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_03",
+      "description": "A rare find with generous natural light, smart storage, and a flexible floor plan.",
+      "featured": true,
+      "listedAt": "2026-05-11T09:00:00Z"
+    },
+    {
+      "id": "lst_1027",
+      "title": "Modern 5-Bed House with Floor-to-Ceiling Windows",
+      "dealType": "rent",
+      "price": 4263,
+      "currency": "USD",
+      "propertyType": "house",
+      "beds": 5,
+      "baths": 5,
+      "areaSqm": 314,
+      "parking": 2,
+      "address": "Av. Reforma 159, CDMX",
+      "city": "CDMX",
+      "lat": 19.479925,
+      "lng": -99.084199,
+      "amenities": [
+        "laundry",
+        "elevator",
+        "wifi",
+        "balcony",
+        "pet_friendly",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_03",
+      "description": "Bright corner unit with floor-to-ceiling windows and an open layout perfect for entertaining.",
+      "featured": false,
+      "listedAt": "2026-02-06T09:00:00Z"
+    },
+    {
+      "id": "lst_1028",
+      "title": "Elegant Land with Floor-to-Ceiling Windows",
+      "dealType": "buy",
+      "price": 273840,
+      "currency": "USD",
+      "propertyType": "land",
+      "beds": 0,
+      "baths": 0,
+      "areaSqm": 767,
+      "parking": 2,
+      "address": "Oak Ridge Blvd 358, CDMX",
+      "city": "CDMX",
+      "lat": 19.40842,
+      "lng": -99.152019,
+      "amenities": [
+        "balcony",
+        "laundry",
+        "elevator",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_01",
+      "description": "Bright corner unit with floor-to-ceiling windows and an open layout perfect for entertaining.",
+      "featured": false,
+      "listedAt": "2026-02-25T09:00:00Z"
+    },
+    {
+      "id": "lst_1029",
+      "title": "Spacious 5-Bed Villa with City Views",
+      "dealType": "rent",
+      "price": 5193,
+      "currency": "USD",
+      "propertyType": "villa",
+      "beds": 5,
+      "baths": 2,
+      "areaSqm": 198,
+      "parking": 2,
+      "address": "Av. Reforma 366, Austin",
+      "city": "Austin",
+      "lat": 30.262987,
+      "lng": -97.687881,
+      "amenities": [
+        "pool",
+        "laundry",
+        "furnished",
+        "wifi",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_04",
+      "description": "Bright corner unit with floor-to-ceiling windows and an open layout perfect for entertaining.",
+      "featured": true,
+      "listedAt": "2026-02-01T09:00:00Z"
+    },
+    {
+      "id": "lst_1030",
+      "title": "Elegant 3-Bed House with Rooftop Access",
+      "dealType": "buy",
+      "price": 1611491,
+      "currency": "USD",
+      "propertyType": "house",
+      "beds": 3,
+      "baths": 3,
+      "areaSqm": 261,
+      "parking": 3,
+      "address": "Sunset Terrace 275, Austin",
+      "city": "Austin",
+      "lat": 30.284676,
+      "lng": -97.690224,
+      "amenities": [
+        "air_conditioning",
+        "pet_friendly",
+        "pool",
+        "wifi",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_01",
+      "description": "A rare find with generous natural light, smart storage, and a flexible floor plan.",
+      "featured": true,
+      "listedAt": "2026-04-04T09:00:00Z"
+    },
+    {
+      "id": "lst_1031",
+      "title": "Bright 5-Bed Villa with Garden Patio",
+      "dealType": "rent",
+      "price": 2775,
+      "currency": "USD",
+      "propertyType": "villa",
+      "beds": 5,
+      "baths": 5,
+      "areaSqm": 311,
+      "parking": 3,
+      "address": "Rua Augusta 97, CDMX",
+      "city": "CDMX",
+      "lat": 19.401744,
+      "lng": -99.134237,
+      "amenities": [
+        "air_conditioning",
+        "parking",
+        "balcony",
+        "wifi",
+        "furnished"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_05",
+      "description": "Move-in ready with updated appliances, central air, and a welcoming community.",
+      "featured": false,
+      "listedAt": "2026-06-07T09:00:00Z"
+    },
+    {
+      "id": "lst_1032",
+      "title": "Bright 3-Bed Apartment with Floor-to-Ceiling Windows",
+      "dealType": "buy",
+      "price": 1095784,
+      "currency": "USD",
+      "propertyType": "apartment",
+      "beds": 3,
+      "baths": 1,
+      "areaSqm": 174,
+      "parking": 0,
+      "address": "Oak Ridge Blvd 416, Lisbon",
+      "city": "Lisbon",
+      "lat": 38.703284,
+      "lng": -9.119083,
+      "amenities": [
+        "gym",
+        "wifi"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_01",
+      "description": "Bright corner unit with floor-to-ceiling windows and an open layout perfect for entertaining.",
+      "featured": true,
+      "listedAt": "2026-01-20T09:00:00Z"
+    },
+    {
+      "id": "lst_1033",
+      "title": "Bright 2-Bed Apartment with Hardwood Floors",
+      "dealType": "rent",
+      "price": 5352,
+      "currency": "USD",
+      "propertyType": "apartment",
+      "beds": 2,
+      "baths": 1,
+      "areaSqm": 317,
+      "parking": 3,
+      "address": "Pine Hollow 326, Lisbon",
+      "city": "Lisbon",
+      "lat": 38.671343,
+      "lng": -9.165641,
+      "amenities": [
+        "pet_friendly",
+        "furnished",
+        "garden",
+        "gym",
+        "pool",
+        "balcony",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_05",
+      "description": "Thoughtfully designed space combining comfort and contemporary finishes throughout.",
+      "featured": false,
+      "listedAt": "2026-04-02T09:00:00Z"
+    },
+    {
+      "id": "lst_1034",
+      "title": "Bright 1-Bed Villa with Walk-in Closet",
+      "dealType": "buy",
+      "price": 703417,
+      "currency": "USD",
+      "propertyType": "villa",
+      "beds": 1,
+      "baths": 1,
+      "areaSqm": 68,
+      "parking": 3,
+      "address": "Rua Augusta 143, Lisbon",
+      "city": "Lisbon",
+      "lat": 38.694393,
+      "lng": -9.126625,
+      "amenities": [
+        "pool",
+        "air_conditioning",
+        "wifi",
+        "balcony",
+        "gym",
+        "parking"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_06",
+      "description": "Thoughtfully designed space combining comfort and contemporary finishes throughout.",
+      "featured": false,
+      "listedAt": "2026-02-12T09:00:00Z"
+    },
+    {
+      "id": "lst_1035",
+      "title": "Sunlit 1-Bed Villa with City Views",
+      "dealType": "rent",
+      "price": 1253,
+      "currency": "USD",
+      "propertyType": "villa",
+      "beds": 1,
+      "baths": 1,
+      "areaSqm": 249,
+      "parking": 0,
+      "address": "Pine Hollow 454, Austin",
+      "city": "Austin",
+      "lat": 30.2798,
+      "lng": -97.700598,
+      "amenities": [
+        "elevator",
+        "parking",
+        "security",
+        "pet_friendly",
+        "furnished",
+        "garden"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_01",
+      "description": "Bright corner unit with floor-to-ceiling windows and an open layout perfect for entertaining.",
+      "featured": false,
+      "listedAt": "2026-02-05T09:00:00Z"
+    },
+    {
+      "id": "lst_1036",
+      "title": "Elegant 4-Bed Townhouse with Private Balcony",
+      "dealType": "rent",
+      "price": 5969,
+      "currency": "USD",
+      "propertyType": "townhouse",
+      "beds": 4,
+      "baths": 1,
+      "areaSqm": 190,
+      "parking": 0,
+      "address": "Calle Roma 230, CDMX",
+      "city": "CDMX",
+      "lat": 19.432456,
+      "lng": -99.130252,
+      "amenities": [
+        "balcony",
+        "gym",
+        "elevator",
+        "pool",
+        "garden",
+        "pet_friendly"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_03",
+      "description": "Move-in ready with updated appliances, central air, and a welcoming community.",
+      "featured": false,
+      "listedAt": "2026-01-05T09:00:00Z"
+    },
+    {
+      "id": "lst_1037",
+      "title": "Modern 1-Bed Apartment with City Views",
+      "dealType": "rent",
+      "price": 5807,
+      "currency": "USD",
+      "propertyType": "apartment",
+      "beds": 1,
+      "baths": 1,
+      "areaSqm": 118,
+      "parking": 1,
+      "address": "Oak Ridge Blvd 29, Austin",
+      "city": "Austin",
+      "lat": 30.234796,
+      "lng": -97.793478,
+      "amenities": [
+        "parking",
+        "air_conditioning",
+        "pet_friendly",
+        "gym",
+        "furnished"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_06",
+      "description": "Bright corner unit with floor-to-ceiling windows and an open layout perfect for entertaining.",
+      "featured": false,
+      "listedAt": "2026-05-23T09:00:00Z"
+    },
+    {
+      "id": "lst_1038",
+      "title": "Bright 3-Bed Condo with Open-Plan Kitchen",
+      "dealType": "buy",
+      "price": 1480745,
+      "currency": "USD",
+      "propertyType": "condo",
+      "beds": 3,
+      "baths": 2,
+      "areaSqm": 316,
+      "parking": 0,
+      "address": "Rua Augusta 210, CDMX",
+      "city": "CDMX",
+      "lat": 19.440536,
+      "lng": -99.181532,
+      "amenities": [
+        "wifi",
+        "furnished"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_05",
+      "description": "Freshly renovated home in a quiet, walkable neighborhood close to parks and caf\u00e9s.",
+      "featured": false,
+      "listedAt": "2026-06-24T09:00:00Z"
+    },
+    {
+      "id": "lst_1039",
+      "title": "Modern 4-Bed Townhouse with City Views",
+      "dealType": "rent",
+      "price": 5657,
+      "currency": "USD",
+      "propertyType": "townhouse",
+      "beds": 4,
+      "baths": 4,
+      "areaSqm": 110,
+      "parking": 0,
+      "address": "Av. Reforma 364, Lisbon",
+      "city": "Lisbon",
+      "lat": 38.733553,
+      "lng": -9.141261,
+      "amenities": [
+        "security",
+        "pool",
+        "wifi",
+        "garden"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+      ],
+      "agentId": "agt_02",
+      "description": "Bright corner unit with floor-to-ceiling windows and an open layout perfect for entertaining.",
+      "featured": true,
+      "listedAt": "2026-01-10T09:00:00Z"
+    }
+  ],
+  "favorites": [
+    {
+      "userId": "usr_001",
+      "listingId": "lst_1010"
+    }
+  ],
+  "savedSearches": [
+    {
+      "id": "ss_01",
+      "userId": "usr_001",
+      "label": "2+ bed rentals in Austin",
+      "filters": {
+        "dealType": "rent",
+        "q": "Austin",
+        "beds": 2,
+        "maxPrice": 3000
+      },
+      "createdAt": "2026-06-05T10:00:00Z"
+    },
+    {
+      "id": "ss_02",
+      "userId": "usr_001",
+      "label": "Houses to buy under $600k",
+      "filters": {
+        "dealType": "buy",
+        "type": "house",
+        "maxPrice": 600000
+      },
+      "createdAt": "2026-06-08T14:30:00Z"
+    }
+  ],
+  "tours": [
+    {
+      "id": "tour_seed01",
+      "userId": "usr_001",
+      "listingId": "lst_1002",
+      "slot": "2:00 PM",
+      "daysFromNow": 1
+    },
+    {
+      "id": "tour_seed02",
+      "userId": "usr_001",
+      "listingId": "lst_1005",
+      "slot": "11:00 AM",
+      "daysFromNow": 5
+    },
+    {
+      "id": "tour_seed03",
+      "userId": "usr_001",
+      "listingId": "lst_1008",
+      "slot": "9:00 AM",
+      "daysFromNow": -2
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "inq_01",
+      "userId": "usr_001",
+      "listingId": "lst_1002",
+      "type": "tour",
+      "lastMessage": "Your tour is confirmed for Saturday at 2:00 PM.",
+      "status": "confirmed",
+      "date": "2026-06-12T16:00:00Z",
+      "messages": [
+        {
+          "from": "user",
+          "text": "I'd like to schedule a tour.",
+          "at": "2026-06-11T09:00:00Z"
+        },
+        {
+          "from": "agent",
+          "text": "Sure! Does Saturday 2 PM work?",
+          "at": "2026-06-11T10:15:00Z"
+        },
+        {
+          "from": "user",
+          "text": "Perfect, see you then.",
+          "at": "2026-06-11T10:20:00Z"
+        }
+      ]
+    },
+    {
+      "id": "inq_02",
+      "userId": "usr_001",
+      "listingId": "lst_1007",
+      "type": "message",
+      "lastMessage": "Is the price negotiable?",
+      "status": "open",
+      "date": "2026-06-13T11:00:00Z",
+      "messages": [
+        {
+          "from": "user",
+          "text": "Is the price negotiable?",
+          "at": "2026-06-13T11:00:00Z"
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "ntf_01",
+      "userId": "usr_001",
+      "title": "Price drop",
+      "body": "A home you viewed dropped by 5%.",
+      "type": "price_drop",
+      "read": false,
+      "date": "2026-06-15T08:00:00Z",
+      "listingId": "lst_1004"
+    },
+    {
+      "id": "ntf_02",
+      "userId": "usr_001",
+      "title": "Tour confirmed",
+      "body": "Your Saturday tour is confirmed.",
+      "type": "tour",
+      "read": false,
+      "date": "2026-06-12T16:05:00Z",
+      "listingId": "lst_1002"
+    },
+    {
+      "id": "ntf_03",
+      "userId": "usr_001",
+      "title": "New match",
+      "body": "3 new listings match your saved search.",
+      "type": "match",
+      "read": true,
+      "date": "2026-06-11T07:30:00Z",
+      "listingId": "lst_1009"
+    },
+    {
+      "id": "ntf_04",
+      "userId": "usr_001",
+      "title": "New match",
+      "body": "A new rental matches \"2+ bed rentals in Austin\".",
+      "type": "match",
+      "read": true,
+      "date": "2026-06-10T07:30:00Z",
+      "listingId": "lst_1012"
+    },
+    {
+      "id": "ntf_05",
+      "userId": "usr_001",
+      "title": "Welcome to Dwellio",
+      "body": "Find your next home with confidence.",
+      "type": "system",
+      "read": true,
+      "date": "2026-06-01T12:00:00Z",
+      "listingId": null
+    },
+    {
+      "id": "ntf_06",
+      "userId": "usr_001",
+      "title": "Price drop",
+      "body": "A saved home is now more affordable.",
+      "type": "price_drop",
+      "read": false,
+      "date": "2026-06-14T09:45:00Z",
+      "listingId": "lst_1018"
+    }
+  ]
+}

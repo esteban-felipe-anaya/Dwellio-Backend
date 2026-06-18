@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Databases
+*.sqlite3
+*.db
+
+# Env / secrets
+.env
+server/.env
+
+# Media / static (runtime artifacts)
+server/media/
+server/staticfiles/
+
+# Node / Next.js admin
+node_modules/
+admin/.next/
+admin/out/
+admin/.turbo/
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

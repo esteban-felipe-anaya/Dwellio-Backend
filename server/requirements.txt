@@ -1,0 +1,36 @@
+# --- Web framework ---
+fastapi>=0.115,<0.116
+uvicorn[standard]>=0.32
+gunicorn>=22.0
+
+# --- Database / ORM / migrations ---
+SQLAlchemy[asyncio]>=2.0.35
+alembic>=1.13
+greenlet>=3.1
+aiosqlite>=0.20          # zero-install SQLite fallback
+# PostgreSQL driver — the documented production target.
+# If your Python has no prebuilt asyncpg wheel, install it separately
+# (`pip install asyncpg`) once PostgreSQL build deps are available.
+asyncpg>=0.30; python_version < "3.14"
+
+# --- Validation / settings ---
+pydantic>=2.9
+pydantic-settings>=2.5
+email-validator>=2.2
+
+# --- Auth / security ---
+python-jose[cryptography]>=3.3
+passlib[bcrypt]>=1.7.4
+bcrypt>=4.2              # used directly for hashing (passlib-compatible)
+
+# --- Uploads ---
+python-multipart>=0.0.12
+
+# --- HTTP / tests ---
+httpx>=0.27
+pytest>=8.3
+pytest-asyncio>=0.24
+
+# --- Lint / format ---
+ruff>=0.6
+black>=24.8
