@@ -116,6 +116,33 @@ listings (photo gallery + crop, agent/type/amenity selects, lat/lng), agents, pr
 amenities, tour/inquiry status management, users with a detail drawer, notification broadcasting,
 and self-service profile editing.
 
+### Screenshots
+
+<table>
+  <tr>
+    <td width="50%"><img src="screenshots/dashboard.png" alt="Dashboard — KPI cards and MUI X charts" /></td>
+    <td width="50%"><img src="screenshots/listings.png" alt="Listings DataGrid with colored boolean cells" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Dashboard</b> — KPI count-ups + charts (listings over time, by type, buy/rent, avg price by city, top agents)</td>
+    <td align="center"><b>Listings</b> — DataGrid with photos, deal-type chips, and colored featured cells</td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/listing-edit.png" alt="Edit-listing dialog with photo gallery and selects" /></td>
+    <td><img src="screenshots/agents.png" alt="Agents management table" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Edit listing</b> — photo gallery + crop, agent/type/amenity selects, lat/lng</td>
+    <td align="center"><b>Agents</b> — CRUD with avatars, ratings and listing counts</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="screenshots/tours.png" alt="Tours with time-based status chips" /></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><b>Tours</b> — status chips computed from <code>scheduledFor</code> (requested → confirmed → upcoming → completed)</td>
+  </tr>
+</table>
+
 ---
 
 ## Point the Flutter app at this backend
