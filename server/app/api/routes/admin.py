@@ -270,15 +270,18 @@ async def admin_create_listing(
         featured=bool(body.featured),
         listed_at=datetime.now(timezone.utc),
     )
-    for i, url in enumerate(body.photos or []):
-        listing.photos.append(ListingPhoto(url=url, position=i))
+    # Assign both collections (even when empty) so they're loaded in memory —
+    # after commit, db.get returns this same identity-mapped object without
+    # re-querying, so selectin wouldn't fire and an unloaded collection would
+    # lazy-load (fails under async).
+    listing.photos = [
+        ListingPhoto(url=url, position=i) for i, url in enumerate(body.photos or [])
+    ]
     db.add(listing)
-    if body.amenities:
-        await _apply_amenities(db, listing, body.amenities)
+    await _apply_amenities(db, listing, body.amenities or [])
     await db.commit()
-    refreshed = await db.get(Listing, listing.id)
     names = await _agent_names(db)
-    return _admin_listing_out(refreshed, names.get(refreshed.agent_id or ""))
+    return _admin_listing_out(listing, names.get(listing.agent_id or ""))
 
 
 @router.patch("/listings/{listing_id}", response_model=AdminListingOut)

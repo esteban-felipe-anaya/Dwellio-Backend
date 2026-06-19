@@ -146,16 +146,19 @@ async def create_listing(
         featured=body.featured,
         listed_at=datetime.now(timezone.utc),
     )
-    for i, url in enumerate(body.photos):
-        listing.photos.append(ListingPhoto(url=url, position=i))
-    if body.amenities:
-        ams = (
-            (await db.execute(select(Amenity).where(Amenity.id.in_(body.amenities))))
-            .scalars()
-            .all()
-        )
-        listing.amenities = list(ams)
+    # Assign both collections (even when empty) so they're loaded in memory and
+    # never lazy-load during serialization after commit (fails under async).
+    listing.photos = [
+        ListingPhoto(url=url, position=i) for i, url in enumerate(body.photos)
+    ]
+    ams = (
+        (await db.execute(select(Amenity).where(Amenity.id.in_(body.amenities))))
+        .scalars()
+        .all()
+        if body.amenities
+        else []
+    )
+    listing.amenities = list(ams)
     db.add(listing)
     await db.commit()
-    refreshed = await db.get(Listing, listing.id)
-    return listing_out(refreshed)
+    return listing_out(listing)

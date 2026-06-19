@@ -2,6 +2,31 @@ from __future__ import annotations
 
 from httpx import AsyncClient
 
+from tests.conftest import auth_header
+
+
+async def test_create_listing_without_amenities_or_photos(client: AsyncClient):
+    # Regression: creating a listing with empty collections must not lazy-load
+    # them during serialization (would raise MissingGreenlet under async).
+    headers = await auth_header(client)
+    res = await client.post(
+        "/listings",
+        headers=headers,
+        json={
+            "title": "Bare",
+            "dealType": "buy",
+            "price": 100,
+            "propertyType": "apartment",
+            "lat": 1,
+            "lng": 1,
+        },
+    )
+    assert res.status_code == 201
+    body = res.json()
+    assert body["amenities"] == []
+    assert body["photos"] == []
+    assert body["title"] == "Bare"
+
 
 async def test_listings_returns_plain_array_with_camelcase(client: AsyncClient):
     res = await client.get("/listings")
